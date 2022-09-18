@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class circle{
+class a{
     public static void main(String... args){
         final float pi=3.14f;
         Scanner get = new Scanner(System.in);
