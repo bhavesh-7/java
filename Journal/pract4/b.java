@@ -4,7 +4,7 @@ class b{
     float price;
     String b_name,a_name;
     public static void main(String... args){
-        book obj = new book();
+        b obj = new b();
         obj.get();
         obj.show();
     }
