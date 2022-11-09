@@ -1,11 +1,12 @@
 class a{
   public static void main(String... args){
-    float pi =3.14;
-    float area,perimeter,raduis;
-    radius=6;
-    area=pi*radius*radius;
-    perimeter=2*pi*radius;
+    double pi =3.14;
+    double area,p,r;
+    r=6.0;
+    area=pi*r*r;
+    p=2*pi*r;
     System.out.println("Area of circle is = "+area);
-    System.out.println("Perimeter of circle is = "+perimerter);
+    System.out.println("\n");
+    System.out.println("Perimeter of circle is = "+p);
   }
 }
