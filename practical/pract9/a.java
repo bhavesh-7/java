@@ -23,7 +23,7 @@ class subtract extends input{
         System.out.println("Subtraction: "+s);
     }
 }
-class c{
+class a{
     public static void main(String... ags){
         input q = new input();
         addition w = new addition();
