@@ -2,11 +2,11 @@ import java.util.*;
 abstract class Calculator{
     int n1, n2;
     void accept(){
-    Scanner r = new Scanner(System.in);
+    Scanner get = new Scanner(System.in);
     System.out.print("Enter First Number: ");
-    n1 = r.nextInt();
+    n1 = get.nextInt();
     System.out.print("Enter Second Number: ");
-    n2 = r.nextInt();
+    n2 = get.nextInt();
     }
     abstract void calc();
 }
@@ -25,7 +25,7 @@ class Subtraction extends Calculator{
     }
 }
 class a{
-    public static void main(String[] args) {
+    public static void main(String... args) {
     Addition A = new Addition();
     System.out.println("Addition: \n");
     A.accept();
